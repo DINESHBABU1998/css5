@@ -1,0 +1,209 @@
+body{
+    background-color: yellow;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: rgba(10, 59, 124, 0.74);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: skewx;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box2{
+    background-color: rgba(10, 59, 124, 0.74);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: skewx;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box3{
+    background-color: rgba(10, 59, 124, 0.74);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: skewx;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes skewx {
+    from{
+        transform: skewX(-20deg);
+    }
+    to{
+        transform: skewX(20deg);
+    }
+    
+}
+.container2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    background-color: gray;
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: skewy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box5{
+    background-color: gray;
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: skewy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box6{
+    background-color: gray;
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: skewy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes skewy {
+    from{
+    transform: skewY(-20deg);
+    }
+    to{
+    transform: skewY(20deg);
+    }
+}
+.container3{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    background-color: rgba(10, 59, 124, 0.74);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box8{
+    background-color: rgba(10, 59, 124, 0.74);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box9{
+    background-color: rgba(10, 59, 124, 0.74);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rotate {
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+.container4{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    background-color: rgba(10, 59, 124, 0.74);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name:scalex ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes scalex {
+    from{
+    transform: scale(1,1);
+    }
+    to{
+    transform: scale(1,0.5);
+    }
+}
+.box11{
+    background-color: brown;
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name:scaley ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes scaley {
+    from{
+    transform: scale(1,1);
+    }
+    to{
+    transform: scale(0.5,1);
+    }
+}
+.box12{
+    background-color: rgb(6, 104, 6);
+    height: 80px;
+    width: 80px;
+    margin: 30px;
+    animation-name: rot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rot {
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(95deg);
+    }
+}
+a{
+    text-align: center;
+}

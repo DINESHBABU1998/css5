@@ -1,0 +1,108 @@
+body{
+    background-color: yellow;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 80px;
+    width:80px;
+    background-color: green;
+    margin: 20px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.box1:hover{
+    width: 200px;
+}
+.box2{
+    height: 80px;
+    width:80px;
+    background-color: green;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.box2:hover{
+    width: 200px;
+    height: 200px;
+}
+.box3{
+    height: 80px;
+    width:80px;
+    background-color: green;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.box3:hover{
+    width: 300px;
+}
+.box4{
+    height: 80px;
+    width:80px;
+    background-color: green;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function:ease;
+}
+.box4:hover{
+    width: 300px;
+}
+.box5{
+    height: 80px;
+    width:80px;
+    background-color: green;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function:ease-in;
+}
+.box5:hover{
+    width: 300px;
+}
+.box6{
+    height: 80px;
+    width:80px;
+    background-color: green;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function:ease-out;
+}
+.box6:hover{
+    width: 300px;
+}
+.box7{
+    height: 80px;
+    width:80px;
+    background-color: green;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function:ease-in-out;
+}
+.box7:hover{
+    width: 300px;
+}
+a{
+    text-align: center;
+}
